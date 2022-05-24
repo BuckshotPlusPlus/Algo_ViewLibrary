@@ -1,0 +1,5 @@
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/config/colors.bpp"
+
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/links.bpp"
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/buttons.bpp"
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/nav.bpp"
