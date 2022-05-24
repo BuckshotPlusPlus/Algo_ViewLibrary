@@ -1,0 +1,14 @@
+view Algo_Primary_Button:Algo_Link{
+	type = "a"
+	text_decoration = "none"
+	content = "Nice button"
+	box_shadow = "0px 2px 4px rgba(45, 35, 66, 0.4), 0px 7px 13px -3px rgba(45, 35, 66, 0.3), inset 0px -3px 0px rgba(58, 65, 111, 0.5)"
+	text_shadow = "0 1px 0 rgba(0,0, 0, 0.4)"
+	background = "radial-gradient( 100% 100% at 100% 0%, #5ADAFF 0%, #5468FF 100% )"
+	padding = "0 20px 0 20px"
+	border_radius = "7px"
+	cursor = "pointer"
+	color = "#fff"
+	font_size = "1.3em"
+	display = "inline-block"
+}
