@@ -11,4 +11,6 @@ view Algo_Primary_Button:Algo_Link{
 	color = "#fff"
 	font_size = "1.3em"
 	display = "inline-block"
+	height = "40px"
+	line_height = "40px"
 }

@@ -1,0 +1,12 @@
+view Algo_Title{
+	type = "h1"
+	width = "100%"
+	content = "Awesome view template for Buckshot++"
+	text_align = "center"
+	color = Algo_Color_Dark
+}
+
+view Algo_SubTitle:Algo_Title{
+	type = "p"
+	content = "Start using this beautiful view template now!"
+}

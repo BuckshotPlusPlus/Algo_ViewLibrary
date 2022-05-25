@@ -1,0 +1,13 @@
+view Algo_Section{
+	type = "section"
+	background_color = Algo_Color_Light
+	width = "calc(100% - 40px)"
+	padding = "20px"
+	content = Algo_Title
+}
+
+view Algo_Section_Hero:Algo_Section{
+	background_color = Algo_Color_White
+	padding = "150px 20px 150px 20px"
+	content = [Algo_Title,Algo_SubTitle]
+}

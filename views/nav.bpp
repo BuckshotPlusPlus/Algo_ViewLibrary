@@ -16,7 +16,7 @@ view Algo_Nav_Button:Algo_Nav_Logo{
 
 view Algo_Nav_Buttons{
 	type = "div"
-	content = [Algo_Nav_Button]
+	content = [Algo_Nav_Button,Algo_Primary_Button]
 	display = "inline-block"
 	float = "right"
 }

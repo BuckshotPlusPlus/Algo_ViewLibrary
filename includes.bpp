@@ -1,5 +1,12 @@
 include "https://buckshotplusplus.github.io/Algo_ViewLibrary/config/colors.bpp"
 
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/text.bpp"
 include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/links.bpp"
 include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/buttons.bpp"
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/titles.bpp"
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/section.bpp"
+
 include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/nav.bpp"
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/footer.bpp"
+
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/pages/demo.bpp"

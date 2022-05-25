@@ -1,0 +1,4 @@
+view Algo_Text{
+	type = "p"
+	color = Algo_Color_Dark
+}
