@@ -1,12 +1,12 @@
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/config/colors.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/config/colors.bpp"
 
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/views/basic/text.bpp"
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/views/basic/links.bpp"
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/views/basic/buttons.bpp"
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/views/basic/titles.bpp"
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/views/basic/section.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/views/basic/text.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/views/basic/links.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/views/basic/buttons.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/views/basic/titles.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/views/basic/section.bpp"
 
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/views/nav.bpp"
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/views/footer.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/views/nav.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/views/footer.bpp"
 
-include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/dev/pages/demo.bpp"
+include "https://raw.githubusercontent.com/BuckshotPlusPlus/Algo_ViewLibrary/main/pages/demo.bpp"
