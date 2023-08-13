@@ -2,14 +2,14 @@ view Algo_Footer_Link:Algo_Link{
 	content = "Footer link"
 	color = Algo_Color_White
 	display = "block"
-	font_size = "0.8em"
+	font-size = "0.8em"
 }
 
 view Algo_Footer_Link_Title{
 	type = "p"
 	color = Algo_Color_Grey
 	content = "Links"
-	font_size = "1em"
+	font-size = "1em"
 }
 
 view Algo_Footer_Link_Container{
@@ -21,12 +21,12 @@ view Algo_Footer_Link_Container{
 
 view Algo_Footer{
 	type = "footer"
-	background_color = Algo_Color_Dark
+	background-color = Algo_Color_Dark
 	width = "calc(100% - 40px)"
 	display = "flex"
-	flex_wrap = "wrap"
-	justify_content = "space-between"
+	flex-wrap = "wrap"
+	justify-content = "space-between"
 	padding = "20px"
-	font_family = "'JetBrains Mono', monospace"
+	font-family = "'JetBrains Mono', monospace"
 	content = [Algo_Footer_Link_Container,Algo_Footer_Link_Container,Algo_Footer_Link_Container]
 }
