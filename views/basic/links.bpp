@@ -1,6 +1,6 @@
 view Algo_Link{
 	type = "a"
 	content = "Default Algo link"
-	text_decoration = "none"
+	text-decoration = "none"
 	color = Algo_Color_Dark
 }

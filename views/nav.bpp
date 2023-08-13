@@ -1,16 +1,16 @@
 view Algo_Nav_Logo:Algo_Link{
 	content = "Algo view library"
 	color = Algo_Color_Primary
-	font_size = "1.8em"
+	font-size = "1.8em"
 	href = "/"
 	height = "40px"
-	line_height = "40px"
+	line-height = "40px"
 }
 
 view Algo_Nav_Button:Algo_Nav_Logo{
 	color = Algo_Color_Dark
-	font_size = "1.2em"
-	margin_right = "15px"
+	font-size = "1.2em"
+	margin-right = "15px"
 	content = "Default Algo nav button"
 }
 
