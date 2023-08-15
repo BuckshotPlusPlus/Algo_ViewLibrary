@@ -13,3 +13,5 @@ include Algo_Base_Url + "views/advanced/features.bpp"
 
 include Algo_Base_Url + "views/nav.bpp"
 include Algo_Base_Url + "views/footer.bpp"
+
+include Algo_Base_Url + "pages/demo.bpp"
