@@ -1,4 +1,4 @@
-view Algo_Title{
+view Algo_Title {
 	type = "h1"
 	width = "100%"
 	content = "Awesome view template for Buckshot++"
@@ -6,7 +6,7 @@ view Algo_Title{
 	color = Algo_Color_Dark
 }
 
-view Algo_SubTitle:Algo_Title{
+view Algo_SubTitle:Algo_Title {
 	type = "p"
 	content = "Start using this beautiful view template now!"
 }

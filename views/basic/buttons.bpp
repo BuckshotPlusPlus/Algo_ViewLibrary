@@ -1,4 +1,4 @@
-view Algo_Primary_Button:Algo_Link{
+view Algo_Primary_Button:Algo_Link {
 	type = "a"
 	text-decoration = "none"
 	content = "Nice button"

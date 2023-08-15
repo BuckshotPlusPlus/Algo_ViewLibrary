@@ -1,7 +1,7 @@
-view Algo_FAQ_Title:Algo_Title{
+view Algo_FAQ_Title:Algo_Title {
 	content = "My awesome FAQ"
 }
 
-view Algo_FAQ_Answer:Algo_Text{
+view Algo_FAQ_Answer:Algo_Text {
 	content = "This is a really cool answer to en even cooler question, if you need any help, feel free to contact Victor Chanet, the creator of Buckshot++, Cheers!"
 }

@@ -1,4 +1,4 @@
-view Algo_Link{
+view Algo_Link {
 	type = "a"
 	content = "Default Algo link"
 	text-decoration = "none"

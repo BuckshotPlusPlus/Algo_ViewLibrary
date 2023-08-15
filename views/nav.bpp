@@ -1,4 +1,4 @@
-view Algo_Nav_Logo:Algo_Link{
+view Algo_Nav_Logo:Algo_Link {
 	content = "Algo view library"
 	color = Algo_Color_Primary
 	font-size = "1.8em"
@@ -7,21 +7,21 @@ view Algo_Nav_Logo:Algo_Link{
 	line-height = "40px"
 }
 
-view Algo_Nav_Button:Algo_Nav_Logo{
+view Algo_Nav_Button:Algo_Nav_Logo {
 	color = Algo_Color_Dark
 	font-size = "1.2em"
 	margin-right = "15px"
 	content = "Default Algo nav button"
 }
 
-view Algo_Nav_Buttons{
+view Algo_Nav_Buttons {
 	type = "div"
 	content = [Algo_Nav_Button,Algo_Primary_Button]
 	display = "inline-block"
 	float = "right"
 }
 
-view Algo_Nav{
+view Algo_Nav {
 	type = "nav"
 	content = [Algo_Nav_Logo,Algo_Nav_Buttons]
 	padding = "20px"
