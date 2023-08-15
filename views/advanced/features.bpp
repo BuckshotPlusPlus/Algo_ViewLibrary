@@ -1,0 +1,26 @@
+view Algo_Features_Title:Algo_Title{
+    content = "My cool features"
+}
+
+view Algo_Features_SubTitle:Algo_SubTitle{
+    content = "Discover this cool and awesome features"
+}
+
+view Algo_Features_Card:Algo_Card{
+    width = "300px"
+}
+
+view Algo_Features_Cards{
+    type = "div"
+    display = "flex"
+    justify-content = "center"
+    align-content = "space-between"
+    flex-wrap = "wrap"
+    content = [Algo_Features_Card,Algo_Features_Card]
+}
+
+view Algo_Features{
+    type = "section"
+    padding = "25px 0"
+    content = [Algo_Features_Title,Algo_Features_SubTitle,Algo_Features_Cards]
+}

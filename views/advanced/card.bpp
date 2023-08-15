@@ -1,0 +1,17 @@
+view Algo_Card_Title:Algo_Title{
+    content = "Card title"
+}
+
+view Algo_Card_Text:Algo_Text{
+    content = "Card title"
+}
+
+view Algo_Card{
+    type = "div"
+    margin = "30px"
+    background-color = Algo_Color_White
+    border-radius = "10px"
+    box-shadow = "0 0 30px rgba(20,20,20,0.2)"
+    padding = "5px 20px"
+    content = [Algo_Card_Title,Algo_Card_Text]
+}
