@@ -1,10 +1,12 @@
 include "config/colors.bpp"
 
-include "views/basic/text.bpp"
-include "views/basic/links.bpp"
-include "views/basic/buttons.bpp"
-include "views/basic/titles.bpp"
-include "views/basic/section.bpp"
+Algo_Base_View_Directory = "views/basic/"
+
+include Algo_Base_View_Directory + "text.bpp"
+include Algo_Base_View_Directory + "links.bpp"
+include Algo_Base_View_Directory + "buttons.bpp"
+include Algo_Base_View_Directory + "titles.bpp"
+include Algo_Base_View_Directory + "section.bpp"
 
 include "views/advanced/card.bpp"
 include "views/advanced/features.bpp"
@@ -13,4 +15,4 @@ include "views/nav.bpp"
 include "views/footer.bpp"
 
 include "pages/demo.bpp"
-include "pages/index/bpp"
+include "pages/index.bpp"
