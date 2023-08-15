@@ -6,7 +6,11 @@ include "views/basic/buttons.bpp"
 include "views/basic/titles.bpp"
 include "views/basic/section.bpp"
 
+include "views/advanced/card.bpp"
+include "views/advanced/features.bpp"
+
 include "views/nav.bpp"
 include "views/footer.bpp"
 
 include "pages/demo.bpp"
+include "pages/index/bpp"
