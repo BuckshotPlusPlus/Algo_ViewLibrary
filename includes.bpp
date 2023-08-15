@@ -1,12 +1,15 @@
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/config/colors.bpp"
+Algo_Base_Url = "https://buckshotplusplus.github.io/Algo_ViewLibrary/"
 
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/text.bpp"
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/links.bpp"
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/buttons.bpp"
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/titles.bpp"
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/basic/section.bpp"
+include Algo_Base_Url + "config/colors.bpp"
 
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/nav.bpp"
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/views/footer.bpp"
+include Algo_Base_Url + "views/basic/text.bpp"
+include Algo_Base_Url + "views/basic/links.bpp"
+include Algo_Base_Url + "views/basic/buttons.bpp"
+include Algo_Base_Url + "views/basic/titles.bpp"
+include Algo_Base_Url + "views/basic/section.bpp"
 
-include "https://buckshotplusplus.github.io/Algo_ViewLibrary/pages/demo.bpp"
+include Algo_Base_Url + "views/advanced/card.bpp"
+include Algo_Base_Url + "views/advanced/features.bpp"
+
+include Algo_Base_Url + "views/nav.bpp"
+include Algo_Base_Url + "views/footer.bpp"
