@@ -3,6 +3,7 @@ view Algo_Footer_Link:Algo_Link {
 	color = Algo_Color_White
 	display = "block"
 	font-size = "0.8em"
+	cursor = "pointer"
 }
 
 view Algo_Footer_Link_Title {
