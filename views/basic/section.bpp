@@ -9,5 +9,5 @@ view Algo_Section {
 view Algo_Section_Hero:Algo_Section {
 	background-color = Algo_Color_White
 	padding = "150px 20px 150px 20px"
-	content = [Algo_Title,Algo_SubTitle]
+	content = [Algo_Title, Algo_SubTitle]
 }

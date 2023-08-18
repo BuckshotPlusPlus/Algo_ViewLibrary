@@ -16,14 +16,14 @@ view Algo_Nav_Button:Algo_Nav_Logo {
 
 view Algo_Nav_Buttons {
 	type = "div"
-	content = [Algo_Nav_Button,Algo_Primary_Button]
+	content = [Algo_Nav_Button, Algo_Primary_Button]
 	display = "inline-block"
 	float = "right"
 }
 
 view Algo_Nav {
 	type = "nav"
-	content = [Algo_Nav_Logo,Algo_Nav_Buttons]
+	content = [Algo_Nav_Logo, Algo_Nav_Buttons]
 	padding = "20px"
 	width = "calc(100% - 40px)"
 }

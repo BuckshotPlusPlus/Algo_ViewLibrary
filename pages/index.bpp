@@ -1,14 +1,14 @@
-view Algo_Body{
+view Algo_Body {
 	Algo_Primary_Button.content = "Use this template"
 	type = "body"
-	content = [Algo_Nav,Algo_Section_Hero,Algo_Section,Algo_Features,Algo_Footer]
+	content = [Algo_Nav, Algo_Section_Hero, Algo_Section, Algo_Features, Algo_Footer]
 	margin = "0"
 	padding = "0"
 	font-family = "'Poppins', sans-serif"
 }
 
-page index{
+page index {
 	title = "Bienvenue: "
 	body = Algo_Body
-	fonts = ["https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nerko+One&family=Poppins&display=swap","https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"]
+	fonts = ["https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nerko+One&family=Poppins&display=swap", "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"]
 }
