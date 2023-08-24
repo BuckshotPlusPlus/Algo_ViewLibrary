@@ -10,6 +10,7 @@ include Algo_Base_Url + "views/basic/section.bpp"
 
 include Algo_Base_Url + "views/advanced/card.bpp"
 include Algo_Base_Url + "views/advanced/features.bpp"
+include Algo_Base_Url + "views/advanced/code_example.bpp"
 
 include Algo_Base_Url + "views/nav.bpp"
 include Algo_Base_Url + "views/footer.bpp"
