@@ -10,6 +10,7 @@ include Algo_Base_View_Directory + "section.bpp"
 
 include "views/advanced/card.bpp"
 include "views/advanced/features.bpp"
+include "views/advanced/code_example.bpp"
 
 include "views/nav.bpp"
 include "views/footer.bpp"

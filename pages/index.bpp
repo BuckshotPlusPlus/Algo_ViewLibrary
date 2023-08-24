@@ -1,10 +1,14 @@
 view Algo_Body {
-	Algo_Primary_Button.content = "Use this template"
 	type = "body"
-	content = [Algo_Nav, Algo_Section_Hero, Algo_Section, Algo_Features, Algo_Footer]
+	content = [Algo_Nav, Algo_Section_Hero, Algo_Code_Example_Hero, Algo_Section, Algo_Features, Algo_Footer]
 	margin = "0"
 	padding = "0"
 	font-family = "'Poppins', sans-serif"
+}
+
+view TestBody{
+	type = "body"
+	content = "<p>yo</p>"
 }
 
 page index {

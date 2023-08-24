@@ -4,3 +4,11 @@ Algo_Color_Light = "rgb(245, 245, 250)"
 Algo_Color_Dark = "rgb(54, 57, 90)"
 Algo_Color_Grey = "rgb(150, 152, 195)"
 Algo_Color_Light_Dark = "rgb(100,100,100)"
+
+Algo_Light_Line_Color = "rgb(234, 234, 234)"
+
+Algo_Apple_Red = "rgb(255,59,48)"
+Algo_Apple_Yellow = "rgb(255,204,0)"
+Algo_Apple_Green = "rgb(52,199,89)"
+
+Algo_Color_Code_Object = "#03fca5"

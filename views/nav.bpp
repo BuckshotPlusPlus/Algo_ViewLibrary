@@ -1,3 +1,11 @@
+event Algo_Nav_Button_Over{
+	border-bottom = "solid 1px " + Algo_Color_Primary
+}
+
+event Algo_Nav_Button_Out{
+	border-bottom = "none"
+}
+
 view Algo_Nav_Logo:Algo_Link {
 	content = "Algo view library"
 	color = Algo_Color_Primary
@@ -5,6 +13,7 @@ view Algo_Nav_Logo:Algo_Link {
 	href = "/"
 	height = "40px"
 	line-height = "40px"
+
 }
 
 view Algo_Nav_Button:Algo_Nav_Logo {
@@ -12,6 +21,12 @@ view Algo_Nav_Button:Algo_Nav_Logo {
 	font-size = "1.2em"
 	margin-right = "15px"
 	content = "Default Algo nav button"
+	line-height = Algo_Nav_Logo.height
+	height = Algo_Nav_Logo.height
+	display = "inline-block"
+	border-color = Algo_Color_Primary
+	onmouseover = Algo_Nav_Button_Over
+	onmouseout = Algo_Nav_Button_Out
 }
 
 view Algo_Nav_Buttons {

@@ -1,0 +1,115 @@
+view Algo_Code_Example_Header_Button{
+    type = "div"
+    width = "12px"
+    height = "12px"
+    border-radius = "50px"
+    margin-left = "10px"
+    margin-top = "12px"
+    background-color = Algo_Apple_Red
+    display = "inline-block"
+    padding = "0"
+    font-size = "0"
+}
+
+view Algo_Code_Example_Header_Button_Orange:Algo_Code_Example_Header_Button{
+    background-color = Algo_Apple_Yellow
+}
+
+view Algo_Code_Example_Header_Button_Green:Algo_Code_Example_Header_Button{
+    background-color = Algo_Apple_Green
+}
+
+view Algo_Code_Example_Header_Buttons{
+    type = "div"
+    width = "77px"
+    height = "36px"
+    display = "inline-flex"
+    padding = "0"
+    font-size = "12px"
+    line-height = "36px"
+    border-bottom = "solid 1px " + Algo_Light_Line_Color
+    content = [Algo_Code_Example_Header_Button,Algo_Code_Example_Header_Button_Orange,Algo_Code_Example_Header_Button_Green]
+}
+
+view Algo_Code_Example_Header_Name:Algo_Code_Example_Header_Buttons{
+    width = "120px"
+    align-items = "center"
+    justify-content = "center"
+    border-right = "solid 1px " + Algo_Light_Line_Color
+    border-left = "solid 1px " + Algo_Light_Line_Color
+    margin-left = "-1px"
+    border-bottom = "none"
+    background-color = Algo_Color_White
+    content = "<span>example.bpp</span>"
+}
+
+view Algo_Code_Example_Header_Other:Algo_Code_Example_Header_Buttons{
+    width = "calc(100% - 77px - 120px)"
+    content = ""
+}
+
+view Algo_Code_Example_Header{
+    type = "div"
+    padding = "0px"
+    height = "36px"
+    font-size = "0"
+    display = "flex"
+    content = [Algo_Code_Example_Header_Buttons,Algo_Code_Example_Header_Name,Algo_Code_Example_Header_Other]
+}
+
+view Algo_Code_Example_Content_Lines{
+    type = "div"
+    display = "inline-block"
+    line-height = "26px"
+    padding = "10px 8px"
+    background-color = Algo_Light_Line_Color
+    content = "1<br>2<br>3<br>"
+}
+
+Algo_Code_Example_Content_Code_View = "<span style='color:#00d188'>view</span>"
+Algo_Code_Example_Content_Code_Tab = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+
+view Algo_Code_Example_Content_Code:Algo_Code_Example_Content_Lines{
+    background-color = Algo_Color_White
+    width = "calc(100% - 24px)"
+    content = Algo_Code_Example_Content_Code_View + " test{<br>" + Algo_Code_Example_Content_Code_Tab + "coucou=''<br>}"
+}
+
+view Algo_Code_Example_Content{
+    type = "div"
+    display = "flex"
+    content = [Algo_Code_Example_Content_Lines,Algo_Code_Example_Content_Code]
+}
+
+view Algo_Code_Example:Algo_Card{
+    padding = "0"
+    border-radius = "3px"
+    overflow = "hidden"
+    background-color = "#fff"
+    width = "400px"
+    content = [Algo_Code_Example_Header,Algo_Code_Example_Content]
+}
+
+view Algo_Code_Example_Hero_Title:Algo_Title{
+    text-align = "left"
+    font-size = "36px"
+}
+
+view Algo_Code_Example_Hero_SubTitle:Algo_SubTitle{
+    text-align = "left"
+}
+
+view Algo_Code_Example_Hero_Left{
+    type = "div"
+    max-width = "500px"
+    padding = "0 40px"
+    content = [Algo_Code_Example_Hero_Title, Algo_Code_Example_Hero_SubTitle]
+}
+
+view Algo_Code_Example_Hero:Algo_Section_Hero{
+    display = "flex"
+    flex-wrap = "wrap"
+    align-items = "center"
+    justify-content = "center"
+    content = [Algo_Code_Example_Hero_Left,Algo_Code_Example]
+}
