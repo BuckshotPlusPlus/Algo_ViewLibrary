@@ -6,6 +6,7 @@ Algo_Feather_Icon = "circle"
 
 view Algo_Card_Icon{
     type = "div"
+    color = Algo_Card_Title.color
     content = "<i data-feather='" + Algo_Feather_Icon + "'></i>"
 }
 
