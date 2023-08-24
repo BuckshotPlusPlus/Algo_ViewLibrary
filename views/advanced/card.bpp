@@ -34,6 +34,5 @@ view Algo_Card_With_Icon_Header{
 
 view Algo_Card_With_Icon:Algo_Card{
     width = "300px"
-    Algo_Card_Text.text-align = "left"
     content = [Algo_Card_With_Icon_Header, Algo_Card_Text]
 }
