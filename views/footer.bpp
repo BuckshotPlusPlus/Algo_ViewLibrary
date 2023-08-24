@@ -1,9 +1,22 @@
+event Algo_Footer_Link_Over{
+	opacity = "0.5"
+}
+
+event Algo_Footer_Link_Out{
+	opacity = "1"
+}
+
 view Algo_Footer_Link:Algo_Link {
 	content = "Footer link"
 	color = Algo_Color_White
 	display = "block"
 	font-size = "0.8em"
 	cursor = "pointer"
+	margin-top = "8px"
+	target = "_blank"
+	transition = "0.5s all"
+	onmouseover = Algo_Footer_Link_Over
+	onmouseout = Algo_Footer_Link_Out
 }
 
 view Algo_Footer_Link_Title {
