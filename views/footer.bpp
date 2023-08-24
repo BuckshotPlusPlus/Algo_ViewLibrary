@@ -1,5 +1,5 @@
 event Algo_Footer_Link_Over{
-	opacity = "0.5"
+	opacity = "0.8"
 }
 
 event Algo_Footer_Link_Out{
@@ -14,7 +14,7 @@ view Algo_Footer_Link:Algo_Link {
 	cursor = "pointer"
 	margin-top = "8px"
 	target = "_blank"
-	transition = "0.5s all"
+	transition = "0.22s all"
 	onmouseover = Algo_Footer_Link_Over
 	onmouseout = Algo_Footer_Link_Out
 }
