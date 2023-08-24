@@ -16,7 +16,7 @@ view Algo_Features_Cards {
     justify-content = "center"
     align-content = "space-between"
     flex-wrap = "wrap"
-    content = [Algo_Features_Card, Algo_Features_Card]
+    content = [Algo_Features_Card, Algo_Card_With_Icon]
 }
 
 view Algo_Features {

@@ -2,6 +2,13 @@ view Algo_Card_Title:Algo_Title {
     content = "Card title"
 }
 
+Algo_Feather_Icon = "circle"
+
+view Algo_Card_Icon{
+    type = "div"
+    content = "<i data-feather='" + Algo_Feather_Icon + "'></i>"
+}
+
 view Algo_Card_Text:Algo_Text {
     content = "Card title"
 }
@@ -14,4 +21,19 @@ view Algo_Card {
     box-shadow = "0 0 30px rgba(20,20,20,0.2)"
     padding = "5px 20px"
     content = [Algo_Card_Title, Algo_Card_Text]
+}
+
+view Algo_Card_With_Icon_Header{
+    display = "flex"
+    type = "div"
+    align-items = "center"
+    Algo_Card_Title.text-align = "right"
+    padding = "0 14px"
+    content = [Algo_Card_Icon,Algo_Card_Title]
+}
+
+view Algo_Card_With_Icon:Algo_Card{
+    width = "300px"
+    Algo_Card_Text.text-align = "right"
+    content = [Algo_Card_With_Icon_Header, Algo_Card_Text]
 }
