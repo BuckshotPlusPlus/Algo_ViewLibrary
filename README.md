@@ -26,6 +26,11 @@
 
 ## Getting Started
 
+To start using Algo, add the following include at the top of your main.bpp file:
+```
+include "https://buckshotplusplus.github.io/Algo_ViewLibrary/includes.bpp"
+```
+You can see a complete example of a website made with Algo here:
 https://github.com/BuckshotPlusPlus/Official-Website
 
 ## Contributing
