@@ -1,6 +1,6 @@
 view Algo_Body {
 	type = "body"
-	content = [Algo_Nav, Algo_Section_Hero, Algo_Code_Example_Hero, Algo_Section, Algo_Features, Algo_Footer]
+	content = [Algo_Nav, Algo_GitHub_Badge, Algo_NPM_Badge, Algo_Section_Hero, Algo_Code_Example_Hero, Algo_Section, Algo_Features, Algo_Footer]
 	margin = "0"
 	padding = "0"
 	font-family = "'Poppins', sans-serif"
@@ -11,8 +11,13 @@ view TestBody{
 	content = "<p>yo</p>"
 }
 
+meta UTF8 {
+    charset = "UTF-8"
+}
+
 page index:Algo_Page_Demo {
-	title = "Bienvenue: "
+	title = "Algo view template"
 	body = Algo_Body
+	meta = [UTF8]
 	fonts = ["https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nerko+One&family=Poppins&display=swap", "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"]
 }

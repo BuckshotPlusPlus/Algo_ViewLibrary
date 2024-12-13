@@ -1,0 +1,123 @@
+Algo_NPM_Red = "rgb(203, 56, 55)"
+Algo_NPM_Black = "#231f20"
+Algo_NPM_White = "#ffffff"
+
+source Algo_NPM_Stats {
+    type = "http"
+    url = "https://api.npmjs.org/downloads/point/last-week/buckshotplusplus"
+    method = "GET"
+}
+
+view Algo_NPM_Logo {
+    type = "div"
+    content = "npm"
+    font-family = "'JetBrains Mono', monospace"
+    font-weight = "bold"
+    font-size = "0.9em"
+    color = Algo_NPM_White
+    padding = "7px 10px"
+    display = "flex"
+    align-items = "center"
+    justify-content = "center"
+    transition = "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+}
+
+view Algo_NPM_Label {
+    type = "div"
+    content = "weekly downloads"
+    font-family = "'JetBrains Mono', monospace"
+    font-size = "0.6em"
+    color = Algo_NPM_White
+    opacity = "0.7"
+    margin-bottom = "2px"
+    transition = "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+}
+
+view Algo_NPM_Count {
+    type = "div"
+    content = Algo_NPM_Stats.downloads
+    font-family = "'JetBrains Mono', monospace"
+    font-size = "0.8em"
+    font-weight = "600"
+    color = Algo_NPM_White
+    transition = "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+}
+
+view Algo_NPM_Stats_Group {
+    type = "div"
+    content = [Algo_NPM_Label, Algo_NPM_Count]
+    display = "flex"
+    flex-direction = "column"
+    align-items = "center"
+    justify-content = "center"
+    transition = "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+}
+
+view Algo_NPM_Install_Text {
+    type = "div"
+    content = "npm i buckshotplusplus"
+    font-family = "'JetBrains Mono', monospace"
+    font-size = "0.8em"
+    color = Algo_NPM_White
+    opacity = "0"
+    position = "absolute"
+    top = "50%"
+    left = "50%"
+    transform = "translate(-50%, -50%)"
+    white-space = "nowrap"
+    transition = "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+}
+
+view Algo_NPM_Stats_Container {
+    type = "div"
+    content = [Algo_NPM_Stats_Group, Algo_NPM_Install_Text]
+    display = "flex"
+    align-items = "center"
+    justify-content = "center"
+    background-color = Algo_NPM_Black
+    border-radius = "0 3px 3px 0"
+    padding = "6px 12px"
+    min-width = "80px"
+    position = "relative"
+    overflow = "hidden"
+    transition = "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+}
+
+event Algo_NPM_Badge_Hover {
+    transform = "translateY(-2px)"
+    box-shadow = "0 8px 24px rgba(35, 31, 32, 0.15), 0 4px 8px rgba(203, 56, 55, 0.2)"
+    Algo_NPM_Stats_Container.background-color = "#000000"
+    Algo_NPM_Stats_Container.min-width = "160px"
+    Algo_NPM_Stats_Group.opacity = "0"
+    Algo_NPM_Install_Text.opacity = "1"
+    Algo_NPM_Logo.transform = "scale(1.05)"
+}
+
+event Algo_NPM_Badge_Leave {
+    transform = "translateY(0)"
+    box-shadow = "0 2px 8px rgba(35, 31, 32, 0.1)"
+    Algo_NPM_Stats_Container.background-color = Algo_NPM_Black
+    Algo_NPM_Stats_Container.min-width = "80px"
+    Algo_NPM_Stats_Group.opacity = "1"
+    Algo_NPM_Install_Text.opacity = "0"
+    Algo_NPM_Logo.transform = "scale(1)"
+}
+
+view Algo_NPM_Badge {
+    type = "a"
+    href = "https://www.npmjs.com/package/buckshotplusplus"
+    content = [Algo_NPM_Logo, Algo_NPM_Stats_Container]
+    position = "fixed"
+    top = "20px"
+    right = "20px"
+    background-color = Algo_NPM_Red
+    border-radius = "3px"
+    text-decoration = "none"
+    display = "flex"
+    align-items = "center"
+    z-index = "1000"
+    transition = "all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)"
+    box-shadow = "0 2px 8px rgba(35, 31, 32, 0.1)"
+    onmouseover = Algo_NPM_Badge_Hover
+    onmouseout = Algo_NPM_Badge_Leave
+}
