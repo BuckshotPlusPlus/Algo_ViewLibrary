@@ -6,10 +6,15 @@ view Algo_Demo_Body {
 	font-family = "'Poppins', sans-serif"
 }
 
+meta UTF8 {
+    charset = "UTF-8"
+}
+
 page Algo_Page_Demo {
 	title = "Algo view template"
 	body = Algo_Demo_Body
 	head = "<script>window.addEventListener('load', (event) => {feather.replace();});</script>"
 	scripts = ["https://unpkg.com/feather-icons"]
+	meta = [UTF8]
 	fonts = ["https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nerko+One&family=Poppins&display=swap", "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"]
 }
