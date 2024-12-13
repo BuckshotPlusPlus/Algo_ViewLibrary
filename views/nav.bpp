@@ -3,7 +3,7 @@ event Algo_Nav_Button_Over{
 }
 
 event Algo_Nav_Button_Out{
-	border-bottom = "none"
+	border-bottom = "solid 1px rgba(0,0,0,0)"
 }
 
 view Algo_Nav_Logo:Algo_Link {
@@ -24,7 +24,8 @@ view Algo_Nav_Button:Algo_Nav_Logo {
 	line-height = Algo_Nav_Logo.height
 	height = Algo_Nav_Logo.height
 	display = "inline-block"
-	border-color = Algo_Color_Primary
+	transition = "all 0.2s"
+	border-bottom = "solid 1px rgba(0,0,0,0)"
 	onmouseover = Algo_Nav_Button_Over
 	onmouseout = Algo_Nav_Button_Out
 }

@@ -1,3 +1,13 @@
+event Algo_Primary_Button_Hover{
+	transform = "translateY(-2px)"
+	box-shadow = "0px 2px 8px rgba(45, 35, 66, 0.4), 0px 7px 13px -3px rgba(45, 35, 66, 0.3), inset 0px -3px 0px rgba(58, 65, 111, 0.5)"
+}
+
+event Algo_Primary_Button_UnHover{
+	transform = "translateY(0)"
+	box-shadow = "0px 2px 4px rgba(45, 35, 66, 0.4), 0px 7px 13px -3px rgba(45, 35, 66, 0.3), inset 0px -3px 0px rgba(58, 65, 111, 0.5)"
+}
+
 view Algo_Primary_Button:Algo_Link {
 	type = "a"
 	text-decoration = "none"
@@ -5,6 +15,8 @@ view Algo_Primary_Button:Algo_Link {
 	box-shadow = "0px 2px 4px rgba(45, 35, 66, 0.4), 0px 7px 13px -3px rgba(45, 35, 66, 0.3), inset 0px -3px 0px rgba(58, 65, 111, 0.5)"
 	text-shadow = "0 1px 0 rgba(0,0, 0, 0.4)"
 	background = "radial-gradient( 100% 100% at 100% 0%, #5ADAFF 0%, #5468FF 100% )"
+	transition = "all 0.5s"
+	transform = "translateY(0)"
 	padding = "0 20px 0 20px"
 	border-radius = "7px"
 	cursor = "pointer"
@@ -13,4 +25,6 @@ view Algo_Primary_Button:Algo_Link {
 	display = "inline-block"
 	height = "40px"
 	line-height = "40px"
+	onmouseover = Algo_Primary_Button_Hover
+	onmouseout = Algo_Primary_Button_UnHover
 }
