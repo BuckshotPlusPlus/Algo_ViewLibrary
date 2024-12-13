@@ -114,7 +114,7 @@ view Algo_GitHub_Badge {
     href = Algo_GitHub_Stats.html_url
     content = [Algo_GitHub_Logo, Algo_GitHub_Stats_Container]
     position = "fixed"
-    top = "70px"
+    bottom = "110px"
     right = "20px"
     background-color = Algo_GitHub_Black
     border-radius = "3px"

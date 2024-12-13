@@ -108,7 +108,7 @@ view Algo_NPM_Badge {
     href = "https://www.npmjs.com/package/buckshotplusplus"
     content = [Algo_NPM_Logo, Algo_NPM_Stats_Container]
     position = "fixed"
-    top = "20px"
+    bottom = "50px"
     right = "20px"
     background-color = Algo_NPM_Red
     border-radius = "3px"
